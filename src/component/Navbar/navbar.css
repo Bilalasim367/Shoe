@@ -1,0 +1,32 @@
+.Banner {
+    background: url() center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+@media (max-width: 768px) {
+    h1 {
+      font-size: 2.5rem;
+      text-align: center;
+    }
+    .add-text {
+      font-size: 1rem;
+    }
+    .add-bag {
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 2rem;
+    }
+    img {
+      width: 100%;
+      position: static;
+      margin: 0 auto;
+    }
+    .nav-pills {
+      display: flex;
+      justify-content: center;
+    }
+  }
